@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.UserLogin.proto</summary>
   public static partial class ReqUserLoginReflection {
@@ -26,12 +26,12 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChNSZXEuVXNlckxvZ2luLnByb3RvEgNyZXEiRgoOVXNlckxvZ2luRmllbGQS",
             "EQoJYnJva2VyX2lkGAEgASgJEg8KB3VzZXJfaWQYAiABKAkSEAoIcGFzc3dv",
-            "cmQYAyABKAlCRAoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhZSZXFVc2VyTG9n",
-            "aW5GaWVsZFByb3RvqgISRXZlbHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "cmQYAyABKAlCRgoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhZSZXFVc2VyTG9n",
+            "aW5GaWVsZFByb3RvqgIURXZlbHlubi5CYXNlLlJlcXVlc3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.UserLoginField), global::Evelynn.Base.Proto.UserLoginField.Parser, new[]{ "BrokerId", "UserId", "Password" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.UserLoginField), global::Evelynn.Base.Request.UserLoginField.Parser, new[]{ "BrokerId", "UserId", "Password" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqUserLoginReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqUserLoginReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

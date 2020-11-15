@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.Authenticate.proto</summary>
   public static partial class MsgReqAuthenticateReflection {
@@ -27,13 +27,13 @@ namespace Evelynn.Base.Proto {
             "ChpNc2cuUmVxLkF1dGhlbnRpY2F0ZS5wcm90bxIHbXNnLnJlcRoWUmVxLkF1",
             "dGhlbnRpY2F0ZS5wcm90byJWChJSZXFBdXRoZW50aWNhdGVNc2cSLAoMYXV0",
             "aGVudGljYXRlGAEgASgLMhYucmVxLkF1dGhlbnRpY2F0ZUZpZWxkEhIKCnJl",
-            "cXVlc3RfaWQYAiABKAVCRQoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhdSZXFB",
-            "dXRoZW50aWNhdGVNc2dQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJv",
-            "dG8z"));
+            "cXVlc3RfaWQYAiABKAVCRwoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhdSZXFB",
+            "dXRoZW50aWNhdGVNc2dQcm90b6oCFEV2ZWx5bm4uQmFzZS5SZXF1ZXN0YgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqAuthenticateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqAuthenticateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqAuthenticateMsg), global::Evelynn.Base.Proto.ReqAuthenticateMsg.Parser, new[]{ "Authenticate", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqAuthenticateMsg), global::Evelynn.Base.Request.ReqAuthenticateMsg.Parser, new[]{ "Authenticate", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqAuthenticateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqAuthenticateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -81,9 +81,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "authenticate" field.</summary>
     public const int AuthenticateFieldNumber = 1;
-    private global::Evelynn.Base.Proto.AuthenticateField authenticate_;
+    private global::Evelynn.Base.Request.AuthenticateField authenticate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.AuthenticateField Authenticate {
+    public global::Evelynn.Base.Request.AuthenticateField Authenticate {
       get { return authenticate_; }
       set {
         authenticate_ = value;
@@ -193,7 +193,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.authenticate_ != null) {
         if (authenticate_ == null) {
-          Authenticate = new global::Evelynn.Base.Proto.AuthenticateField();
+          Authenticate = new global::Evelynn.Base.Request.AuthenticateField();
         }
         Authenticate.MergeFrom(other.Authenticate);
       }
@@ -216,7 +216,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (authenticate_ == null) {
-              Authenticate = new global::Evelynn.Base.Proto.AuthenticateField();
+              Authenticate = new global::Evelynn.Base.Request.AuthenticateField();
             }
             input.ReadMessage(Authenticate);
             break;
@@ -241,7 +241,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (authenticate_ == null) {
-              Authenticate = new global::Evelynn.Base.Proto.AuthenticateField();
+              Authenticate = new global::Evelynn.Base.Request.AuthenticateField();
             }
             input.ReadMessage(Authenticate);
             break;

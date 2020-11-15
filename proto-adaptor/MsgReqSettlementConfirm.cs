@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.SettlementConfirm.proto</summary>
   public static partial class MsgReqSettlementConfirmReflection {
@@ -27,13 +27,13 @@ namespace Evelynn.Base.Proto {
             "Ch9Nc2cuUmVxLlNldHRsZW1lbnRDb25maXJtLnByb3RvEgdtc2cucmVxGhtS",
             "ZXEuU2V0dGxlbWVudENvbmZpcm0ucHJvdG8iWwoXUmVxU2V0dGxlbWVudENv",
             "bmZpcm1Nc2cSLAoHY29uZmlybRgBIAEoCzIbLnJlcS5TZXR0bGVtZW50Q29u",
-            "ZmlybUZpZWxkEhIKCnJlcXVlc3RfaWQYAiABKAVCSgoVaW8uZXZlbHlubi5i",
-            "YXNlLnByb3RvQhxSZXFTZXR0bGVtZW50Q29uZmlybU1zZ1Byb3RvqgISRXZl",
-            "bHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "ZmlybUZpZWxkEhIKCnJlcXVlc3RfaWQYAiABKAVCTAoVaW8uZXZlbHlubi5i",
+            "YXNlLnByb3RvQhxSZXFTZXR0bGVtZW50Q29uZmlybU1zZ1Byb3RvqgIURXZl",
+            "bHlubi5CYXNlLlJlcXVlc3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqSettlementConfirmReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqSettlementConfirmReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqSettlementConfirmMsg), global::Evelynn.Base.Proto.ReqSettlementConfirmMsg.Parser, new[]{ "Confirm", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqSettlementConfirmMsg), global::Evelynn.Base.Request.ReqSettlementConfirmMsg.Parser, new[]{ "Confirm", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -81,9 +81,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "confirm" field.</summary>
     public const int ConfirmFieldNumber = 1;
-    private global::Evelynn.Base.Proto.SettlementConfirmField confirm_;
+    private global::Evelynn.Base.Request.SettlementConfirmField confirm_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.SettlementConfirmField Confirm {
+    public global::Evelynn.Base.Request.SettlementConfirmField Confirm {
       get { return confirm_; }
       set {
         confirm_ = value;
@@ -193,7 +193,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.confirm_ != null) {
         if (confirm_ == null) {
-          Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+          Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
         }
         Confirm.MergeFrom(other.Confirm);
       }
@@ -216,7 +216,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (confirm_ == null) {
-              Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+              Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
             }
             input.ReadMessage(Confirm);
             break;
@@ -241,7 +241,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (confirm_ == null) {
-              Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+              Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
             }
             input.ReadMessage(Confirm);
             break;

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.SettlementConfirm.proto</summary>
   public static partial class MsgRspSettlementConfirmReflection {
@@ -29,12 +29,13 @@ namespace Evelynn.Base.Proto {
             "AQoXUnNwU2V0dGxlbWVudENvbmZpcm1Nc2cSLAoHY29uZmlybRgBIAEoCzIb",
             "LnJlcS5TZXR0bGVtZW50Q29uZmlybUZpZWxkEh4KBWVycm9yGAIgASgLMg8u",
             "cnNwLkVycm9yRmllbGQSEgoKcmVxdWVzdF9pZBgDIAEoBRIPCgdpc19sYXN0",
-            "GAQgASgIQkoKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IcUnNwU2V0dGxlbWVu",
-            "dENvbmZpcm1Nc2dQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "GAQgASgIQk0KFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IcUnNwU2V0dGxlbWVu",
+            "dENvbmZpcm1Nc2dQcm90b6oCFUV2ZWx5bm4uQmFzZS5SZXNwb25zZWIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqSettlementConfirmReflection.Descriptor, global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqSettlementConfirmReflection.Descriptor, global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspSettlementConfirmMsg), global::Evelynn.Base.Proto.RspSettlementConfirmMsg.Parser, new[]{ "Confirm", "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspSettlementConfirmMsg), global::Evelynn.Base.Response.RspSettlementConfirmMsg.Parser, new[]{ "Confirm", "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +54,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +85,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "confirm" field.</summary>
     public const int ConfirmFieldNumber = 1;
-    private global::Evelynn.Base.Proto.SettlementConfirmField confirm_;
+    private global::Evelynn.Base.Request.SettlementConfirmField confirm_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.SettlementConfirmField Confirm {
+    public global::Evelynn.Base.Request.SettlementConfirmField Confirm {
       get { return confirm_; }
       set {
         confirm_ = value;
@@ -95,9 +96,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 2;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -244,13 +245,13 @@ namespace Evelynn.Base.Proto {
       }
       if (other.confirm_ != null) {
         if (confirm_ == null) {
-          Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+          Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
         }
         Confirm.MergeFrom(other.Confirm);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -276,14 +277,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (confirm_ == null) {
-              Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+              Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
             }
             input.ReadMessage(Confirm);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -312,14 +313,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (confirm_ == null) {
-              Confirm = new global::Evelynn.Base.Proto.SettlementConfirmField();
+              Confirm = new global::Evelynn.Base.Request.SettlementConfirmField();
             }
             input.ReadMessage(Confirm);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

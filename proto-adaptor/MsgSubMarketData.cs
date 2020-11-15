@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Subscription {
 
   /// <summary>Holder for reflection information generated from Msg.Sub.MarketData.proto</summary>
   public static partial class MsgSubMarketDataReflection {
@@ -26,13 +26,13 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChhNc2cuU3ViLk1hcmtldERhdGEucHJvdG8SB21zZy5zdWIaFFN1Yi5NYXJr",
             "ZXREYXRhLnByb3RvIj4KEFN1Yk1hcmtldERhdGFNc2cSKgoJc3Vic2NyaWJl",
-            "GAEgASgLMhcuc3ViLlN1Yk1hcmtldERhdGFGaWVsZEJDChVpby5ldmVseW5u",
-            "LmJhc2UucHJvdG9CFVN1Yk1hcmtldERhdGFNc2dQcm90b6oCEkV2ZWx5bm4u",
-            "QmFzZS5Qcm90b2IGcHJvdG8z"));
+            "GAEgASgLMhcuc3ViLlN1Yk1hcmtldERhdGFGaWVsZEJKChVpby5ldmVseW5u",
+            "LmJhc2UucHJvdG9CFVN1Yk1hcmtldERhdGFNc2dQcm90b6oCGUV2ZWx5bm4u",
+            "QmFzZS5TdWJzY3JpcHRpb25iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.SubMarketDataReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Subscription.SubMarketDataReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.SubMarketDataMsg), global::Evelynn.Base.Proto.SubMarketDataMsg.Parser, new[]{ "Subscribe" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Subscription.SubMarketDataMsg), global::Evelynn.Base.Subscription.SubMarketDataMsg.Parser, new[]{ "Subscribe" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgSubMarketDataReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Subscription.MsgSubMarketDataReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -79,9 +79,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "subscribe" field.</summary>
     public const int SubscribeFieldNumber = 1;
-    private global::Evelynn.Base.Proto.SubMarketDataField subscribe_;
+    private global::Evelynn.Base.Subscription.SubMarketDataField subscribe_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.SubMarketDataField Subscribe {
+    public global::Evelynn.Base.Subscription.SubMarketDataField Subscribe {
       get { return subscribe_; }
       set {
         subscribe_ = value;
@@ -167,7 +167,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.subscribe_ != null) {
         if (subscribe_ == null) {
-          Subscribe = new global::Evelynn.Base.Proto.SubMarketDataField();
+          Subscribe = new global::Evelynn.Base.Subscription.SubMarketDataField();
         }
         Subscribe.MergeFrom(other.Subscribe);
       }
@@ -187,7 +187,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (subscribe_ == null) {
-              Subscribe = new global::Evelynn.Base.Proto.SubMarketDataField();
+              Subscribe = new global::Evelynn.Base.Subscription.SubMarketDataField();
             }
             input.ReadMessage(Subscribe);
             break;
@@ -208,7 +208,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (subscribe_ == null) {
-              Subscribe = new global::Evelynn.Base.Proto.SubMarketDataField();
+              Subscribe = new global::Evelynn.Base.Subscription.SubMarketDataField();
             }
             input.ReadMessage(Subscribe);
             break;

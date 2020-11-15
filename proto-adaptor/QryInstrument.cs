@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Query {
 
   /// <summary>Holder for reflection information generated from Qry.Instrument.proto</summary>
   public static partial class QryInstrumentReflection {
@@ -27,11 +27,11 @@ namespace Evelynn.Base.Proto {
             "ChRRcnkuSW5zdHJ1bWVudC5wcm90bxIDcXJ5IkAKElFyeUluc3RydW1lbnRG",
             "aWVsZBIVCg1pbnN0cnVtZW50X2lkGAEgASgJEhMKC2V4Y2hhbmdlX2lkGAIg",
             "ASgJQkUKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IXUXJ5SW5zdHJ1bWVudEZp",
-            "ZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnByb3RvMw=="));
+            "ZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUXVlcnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.QryInstrumentField), global::Evelynn.Base.Proto.QryInstrumentField.Parser, new[]{ "InstrumentId", "ExchangeId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Query.QryInstrumentField), global::Evelynn.Base.Query.QryInstrumentField.Parser, new[]{ "InstrumentId", "ExchangeId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.QryInstrumentReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Query.QryInstrumentReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

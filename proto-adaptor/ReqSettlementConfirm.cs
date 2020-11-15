@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.SettlementConfirm.proto</summary>
   public static partial class ReqSettlementConfirmReflection {
@@ -26,13 +26,13 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChtSZXEuU2V0dGxlbWVudENvbmZpcm0ucHJvdG8SA3JlcSJAChZTZXR0bGVt",
             "ZW50Q29uZmlybUZpZWxkEhEKCWJyb2tlcl9pZBgBIAEoCRITCgtpbnZlc3Rv",
-            "cl9pZBgCIAEoCUJJChVpby5ldmVseW5uLmJhc2UucHJvdG9CG1NldHRsZW1l",
-            "bnRDb25maXJtRmllbGRQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJv",
-            "dG8z"));
+            "cl9pZBgCIAEoCUJLChVpby5ldmVseW5uLmJhc2UucHJvdG9CG1NldHRsZW1l",
+            "bnRDb25maXJtRmllbGRQcm90b6oCFEV2ZWx5bm4uQmFzZS5SZXF1ZXN0YgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.SettlementConfirmField), global::Evelynn.Base.Proto.SettlementConfirmField.Parser, new[]{ "BrokerId", "InvestorId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.SettlementConfirmField), global::Evelynn.Base.Request.SettlementConfirmField.Parser, new[]{ "BrokerId", "InvestorId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqSettlementConfirmReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

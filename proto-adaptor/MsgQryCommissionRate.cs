@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Query {
 
   /// <summary>Holder for reflection information generated from Msg.Qry.CommissionRate.proto</summary>
   public static partial class MsgQryCommissionRateReflection {
@@ -29,11 +29,11 @@ namespace Evelynn.Base.Proto {
             "NAoPY29tbWlzc2lvbl9yYXRlGAEgASgLMhsucXJ5LlFyeUNvbW1pc3Npb25S",
             "YXRlRmllbGQSEgoKcmVxdWVzdF9pZBgCIAEoBUJHChVpby5ldmVseW5uLmJh",
             "c2UucHJvdG9CGVFyeUNvbW1pc3Npb25SYXRlTXNnUHJvdG+qAhJFdmVseW5u",
-            "LkJhc2UuUHJvdG9iBnByb3RvMw=="));
+            "LkJhc2UuUXVlcnliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.QryCommissionRateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Query.QryCommissionRateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.QryCommissionRateMsg), global::Evelynn.Base.Proto.QryCommissionRateMsg.Parser, new[]{ "CommissionRate", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Query.QryCommissionRateMsg), global::Evelynn.Base.Query.QryCommissionRateMsg.Parser, new[]{ "CommissionRate", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgQryCommissionRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Query.MsgQryCommissionRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -81,9 +81,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "commission_rate" field.</summary>
     public const int CommissionRateFieldNumber = 1;
-    private global::Evelynn.Base.Proto.QryCommissionRateField commissionRate_;
+    private global::Evelynn.Base.Query.QryCommissionRateField commissionRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.QryCommissionRateField CommissionRate {
+    public global::Evelynn.Base.Query.QryCommissionRateField CommissionRate {
       get { return commissionRate_; }
       set {
         commissionRate_ = value;
@@ -193,7 +193,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.commissionRate_ != null) {
         if (commissionRate_ == null) {
-          CommissionRate = new global::Evelynn.Base.Proto.QryCommissionRateField();
+          CommissionRate = new global::Evelynn.Base.Query.QryCommissionRateField();
         }
         CommissionRate.MergeFrom(other.CommissionRate);
       }
@@ -216,7 +216,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (commissionRate_ == null) {
-              CommissionRate = new global::Evelynn.Base.Proto.QryCommissionRateField();
+              CommissionRate = new global::Evelynn.Base.Query.QryCommissionRateField();
             }
             input.ReadMessage(CommissionRate);
             break;
@@ -241,7 +241,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (commissionRate_ == null) {
-              CommissionRate = new global::Evelynn.Base.Proto.QryCommissionRateField();
+              CommissionRate = new global::Evelynn.Base.Query.QryCommissionRateField();
             }
             input.ReadMessage(CommissionRate);
             break;

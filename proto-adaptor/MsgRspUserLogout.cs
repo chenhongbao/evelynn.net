@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.UserLogout.proto</summary>
   public static partial class MsgRspUserLogoutReflection {
@@ -28,13 +28,13 @@ namespace Evelynn.Base.Proto {
             "TG9nb3V0LnByb3RvGg9Sc3AuRXJyb3IucHJvdG8ifQoQUnNwVXNlckxvZ291",
             "dE1zZxIkCgZsb2dvdXQYASABKAsyFC5yZXEuVXNlckxvZ291dEZpZWxkEh4K",
             "BWVycm9yGAIgASgLMg8ucnNwLkVycm9yRmllbGQSEgoKcmVxdWVzdF9pZBgD",
-            "IAEoBRIPCgdpc19sYXN0GAQgASgIQkMKFWlvLmV2ZWx5bm4uYmFzZS5wcm90",
-            "b0IVUnNwVXNlckxvZ291dE1zZ1Byb3RvqgISRXZlbHlubi5CYXNlLlByb3Rv",
-            "YgZwcm90bzM="));
+            "IAEoBRIPCgdpc19sYXN0GAQgASgIQkYKFWlvLmV2ZWx5bm4uYmFzZS5wcm90",
+            "b0IVUnNwVXNlckxvZ291dE1zZ1Byb3RvqgIVRXZlbHlubi5CYXNlLlJlc3Bv",
+            "bnNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqUserLogoutReflection.Descriptor, global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqUserLogoutReflection.Descriptor, global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspUserLogoutMsg), global::Evelynn.Base.Proto.RspUserLogoutMsg.Parser, new[]{ "Logout", "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspUserLogoutMsg), global::Evelynn.Base.Response.RspUserLogoutMsg.Parser, new[]{ "Logout", "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +53,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspUserLogoutReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspUserLogoutReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +84,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "logout" field.</summary>
     public const int LogoutFieldNumber = 1;
-    private global::Evelynn.Base.Proto.UserLogoutField logout_;
+    private global::Evelynn.Base.Request.UserLogoutField logout_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.UserLogoutField Logout {
+    public global::Evelynn.Base.Request.UserLogoutField Logout {
       get { return logout_; }
       set {
         logout_ = value;
@@ -95,9 +95,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 2;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -244,13 +244,13 @@ namespace Evelynn.Base.Proto {
       }
       if (other.logout_ != null) {
         if (logout_ == null) {
-          Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+          Logout = new global::Evelynn.Base.Request.UserLogoutField();
         }
         Logout.MergeFrom(other.Logout);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -276,14 +276,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (logout_ == null) {
-              Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+              Logout = new global::Evelynn.Base.Request.UserLogoutField();
             }
             input.ReadMessage(Logout);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -312,14 +312,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (logout_ == null) {
-              Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+              Logout = new global::Evelynn.Base.Request.UserLogoutField();
             }
             input.ReadMessage(Logout);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

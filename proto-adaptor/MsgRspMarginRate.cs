@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.MarginRate.proto</summary>
   public static partial class MsgRspMarginRateReflection {
@@ -28,13 +28,13 @@ namespace Evelynn.Base.Proto {
             "aW5SYXRlLnByb3RvGg9Sc3AuRXJyb3IucHJvdG8iggEKEFJzcE1hcmdpblJh",
             "dGVNc2cSKQoLbWFyZ2luX3JhdGUYASABKAsyFC5yc3AuTWFyZ2luUmF0ZUZp",
             "ZWxkEh4KBWVycm9yGAIgASgLMg8ucnNwLkVycm9yRmllbGQSEgoKcmVxdWVz",
-            "dF9pZBgDIAEoBRIPCgdpc19sYXN0GAQgASgIQkMKFWlvLmV2ZWx5bm4uYmFz",
-            "ZS5wcm90b0IVUnNwTWFyZ2luUmF0ZU1zZ1Byb3RvqgISRXZlbHlubi5CYXNl",
-            "LlByb3RvYgZwcm90bzM="));
+            "dF9pZBgDIAEoBRIPCgdpc19sYXN0GAQgASgIQkYKFWlvLmV2ZWx5bm4uYmFz",
+            "ZS5wcm90b0IVUnNwTWFyZ2luUmF0ZU1zZ1Byb3RvqgIVRXZlbHlubi5CYXNl",
+            "LlJlc3BvbnNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RspMarginRateReflection.Descriptor, global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Response.RspMarginRateReflection.Descriptor, global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspMarginRateMsg), global::Evelynn.Base.Proto.RspMarginRateMsg.Parser, new[]{ "MarginRate", "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspMarginRateMsg), global::Evelynn.Base.Response.RspMarginRateMsg.Parser, new[]{ "MarginRate", "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +53,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspMarginRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspMarginRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +84,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "margin_rate" field.</summary>
     public const int MarginRateFieldNumber = 1;
-    private global::Evelynn.Base.Proto.MarginRateField marginRate_;
+    private global::Evelynn.Base.Response.MarginRateField marginRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.MarginRateField MarginRate {
+    public global::Evelynn.Base.Response.MarginRateField MarginRate {
       get { return marginRate_; }
       set {
         marginRate_ = value;
@@ -95,9 +95,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 2;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -244,13 +244,13 @@ namespace Evelynn.Base.Proto {
       }
       if (other.marginRate_ != null) {
         if (marginRate_ == null) {
-          MarginRate = new global::Evelynn.Base.Proto.MarginRateField();
+          MarginRate = new global::Evelynn.Base.Response.MarginRateField();
         }
         MarginRate.MergeFrom(other.MarginRate);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -276,14 +276,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (marginRate_ == null) {
-              MarginRate = new global::Evelynn.Base.Proto.MarginRateField();
+              MarginRate = new global::Evelynn.Base.Response.MarginRateField();
             }
             input.ReadMessage(MarginRate);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -312,14 +312,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (marginRate_ == null) {
-              MarginRate = new global::Evelynn.Base.Proto.MarginRateField();
+              MarginRate = new global::Evelynn.Base.Response.MarginRateField();
             }
             input.ReadMessage(MarginRate);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

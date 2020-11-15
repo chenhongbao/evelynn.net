@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.Error.proto</summary>
   public static partial class MsgRspErrorReflection {
@@ -26,13 +26,13 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChNNc2cuUnNwLkVycm9yLnByb3RvEgdtc2cucnNwGg9Sc3AuRXJyb3IucHJv",
             "dG8iUgoLUnNwRXJyb3JNc2cSHgoFZXJyb3IYASABKAsyDy5yc3AuRXJyb3JG",
-            "aWVsZBISCgpyZXF1ZXN0X2lkGAIgASgFEg8KB2lzX2xhc3QYAyABKAhCPgoV",
-            "aW8uZXZlbHlubi5iYXNlLnByb3RvQhBSc3BFcnJvck1zZ1Byb3RvqgISRXZl",
-            "bHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "aWVsZBISCgpyZXF1ZXN0X2lkGAIgASgFEg8KB2lzX2xhc3QYAyABKAhCQQoV",
+            "aW8uZXZlbHlubi5iYXNlLnByb3RvQhBSc3BFcnJvck1zZ1Byb3RvqgIVRXZl",
+            "bHlubi5CYXNlLlJlc3BvbnNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspErrorMsg), global::Evelynn.Base.Proto.RspErrorMsg.Parser, new[]{ "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspErrorMsg), global::Evelynn.Base.Response.RspErrorMsg.Parser, new[]{ "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspErrorReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspErrorReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -81,9 +81,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 1;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -217,7 +217,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -243,7 +243,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -272,7 +272,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

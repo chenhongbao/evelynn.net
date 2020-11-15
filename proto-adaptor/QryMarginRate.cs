@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Query {
 
   /// <summary>Holder for reflection information generated from Qry.MarginRate.proto</summary>
   public static partial class QryMarginRateReflection {
@@ -28,12 +28,12 @@ namespace Evelynn.Base.Proto {
             "aWVsZBIRCglicm9rZXJfaWQYASABKAkSEwoLaW52ZXN0b3JfaWQYAiABKAkS",
             "FQoNaW5zdHJ1bWVudF9pZBgDIAEoCRITCgtleGNoYW5nZV9pZBgEIAEoCRIS",
             "CgpoZWRnZV9mbGFnGAUgASgFQkUKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IX",
-            "UXJ5TWFyZ2luUmF0ZUZpZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9i",
+            "UXJ5TWFyZ2luUmF0ZUZpZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUXVlcnli",
             "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.QryMarginRateField), global::Evelynn.Base.Proto.QryMarginRateField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "ExchangeId", "HedgeFlag" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Query.QryMarginRateField), global::Evelynn.Base.Query.QryMarginRateField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "ExchangeId", "HedgeFlag" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.QryMarginRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Query.QryMarginRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

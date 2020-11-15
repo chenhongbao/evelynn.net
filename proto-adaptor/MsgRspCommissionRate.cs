@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.CommissionRate.proto</summary>
   public static partial class MsgRspCommissionRateReflection {
@@ -29,12 +29,12 @@ namespace Evelynn.Base.Proto {
             "Q29tbWlzc2lvblJhdGVNc2cSMQoPY29tbWlzc2lvbl9yYXRlGAEgASgLMhgu",
             "cnNwLkNvbW1pc3Npb25SYXRlRmllbGQSHgoFZXJyb3IYAiABKAsyDy5yc3Au",
             "RXJyb3JGaWVsZBISCgpyZXF1ZXN0X2lkGAMgASgFEg8KB2lzX2xhc3QYBCAB",
-            "KAhCRwoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhlSc3BDb21taXNzaW9uUmF0",
-            "ZU1zZ1Byb3RvqgISRXZlbHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "KAhCSgoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhlSc3BDb21taXNzaW9uUmF0",
+            "ZU1zZ1Byb3RvqgIVRXZlbHlubi5CYXNlLlJlc3BvbnNlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RspCommissionRateReflection.Descriptor, global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Response.RspCommissionRateReflection.Descriptor, global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspCommissionRateMsg), global::Evelynn.Base.Proto.RspCommissionRateMsg.Parser, new[]{ "CommissionRate", "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspCommissionRateMsg), global::Evelynn.Base.Response.RspCommissionRateMsg.Parser, new[]{ "CommissionRate", "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +53,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspCommissionRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspCommissionRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +84,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "commission_rate" field.</summary>
     public const int CommissionRateFieldNumber = 1;
-    private global::Evelynn.Base.Proto.CommissionRateField commissionRate_;
+    private global::Evelynn.Base.Response.CommissionRateField commissionRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.CommissionRateField CommissionRate {
+    public global::Evelynn.Base.Response.CommissionRateField CommissionRate {
       get { return commissionRate_; }
       set {
         commissionRate_ = value;
@@ -95,9 +95,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 2;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -244,13 +244,13 @@ namespace Evelynn.Base.Proto {
       }
       if (other.commissionRate_ != null) {
         if (commissionRate_ == null) {
-          CommissionRate = new global::Evelynn.Base.Proto.CommissionRateField();
+          CommissionRate = new global::Evelynn.Base.Response.CommissionRateField();
         }
         CommissionRate.MergeFrom(other.CommissionRate);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -276,14 +276,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (commissionRate_ == null) {
-              CommissionRate = new global::Evelynn.Base.Proto.CommissionRateField();
+              CommissionRate = new global::Evelynn.Base.Response.CommissionRateField();
             }
             input.ReadMessage(CommissionRate);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -312,14 +312,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (commissionRate_ == null) {
-              CommissionRate = new global::Evelynn.Base.Proto.CommissionRateField();
+              CommissionRate = new global::Evelynn.Base.Response.CommissionRateField();
             }
             input.ReadMessage(CommissionRate);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

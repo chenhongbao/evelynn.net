@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.Authenticate.proto</summary>
   public static partial class ReqAuthenticateReflection {
@@ -27,13 +27,13 @@ namespace Evelynn.Base.Proto {
             "ChZSZXEuQXV0aGVudGljYXRlLnByb3RvEgNyZXEidQoRQXV0aGVudGljYXRl",
             "RmllbGQSEQoJYnJva2VyX2lkGAEgASgJEg8KB3VzZXJfaWQYAiABKAkSDgoG",
             "YXBwX2lkGAMgASgJEhEKCWF1dGhfY29kZRgEIAEoCRIZChF1c2VyX3Byb2R1",
-            "Y3RfaW5mbxgFIAEoCUJHChVpby5ldmVseW5uLmJhc2UucHJvdG9CGVJlcUF1",
-            "dGhlbnRpY2F0ZUZpZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnBy",
-            "b3RvMw=="));
+            "Y3RfaW5mbxgFIAEoCUJJChVpby5ldmVseW5uLmJhc2UucHJvdG9CGVJlcUF1",
+            "dGhlbnRpY2F0ZUZpZWxkUHJvdG+qAhRFdmVseW5uLkJhc2UuUmVxdWVzdGIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.AuthenticateField), global::Evelynn.Base.Proto.AuthenticateField.Parser, new[]{ "BrokerId", "UserId", "AppId", "AuthCode", "UserProductInfo" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.AuthenticateField), global::Evelynn.Base.Request.AuthenticateField.Parser, new[]{ "BrokerId", "UserId", "AppId", "AuthCode", "UserProductInfo" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqAuthenticateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqAuthenticateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

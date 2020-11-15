@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Rsp.Error.proto</summary>
   public static partial class RspErrorReflection {
@@ -25,13 +25,13 @@ namespace Evelynn.Base.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cg9Sc3AuRXJyb3IucHJvdG8SA3JzcCIxCgpFcnJvckZpZWxkEhAKCGVycm9y",
-            "X2lkGAEgASgFEhEKCWVycm9yX21zZxgCIAEoCUI9ChVpby5ldmVseW5uLmJh",
-            "c2UucHJvdG9CD0Vycm9yRmllbGRQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90",
-            "b2IGcHJvdG8z"));
+            "X2lkGAEgASgFEhEKCWVycm9yX21zZxgCIAEoCUJAChVpby5ldmVseW5uLmJh",
+            "c2UucHJvdG9CD0Vycm9yRmllbGRQcm90b6oCFUV2ZWx5bm4uQmFzZS5SZXNw",
+            "b25zZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ErrorField), global::Evelynn.Base.Proto.ErrorField.Parser, new[]{ "ErrorId", "ErrorMsg" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.ErrorField), global::Evelynn.Base.Response.ErrorField.Parser, new[]{ "ErrorId", "ErrorMsg" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.RspErrorReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.RspErrorReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

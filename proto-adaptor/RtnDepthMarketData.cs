@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Return {
 
   /// <summary>Holder for reflection information generated from Rtn.DepthMarketData.proto</summary>
   public static partial class RtnDepthMarketDataReflection {
@@ -37,13 +37,13 @@ namespace Evelynn.Base.Proto {
             "Cgt1cGRhdGVfdGltZRgSIAEoCRIXCg91cGRhdGVfbWlsbGlzZWMYEyABKAUS",
             "FQoNYXZlcmFnZV9wcmljZRgUIAEoARISCgphY3Rpb25fZGF5GBUgASgJEhEK",
             "CWJpZF9wcmljZRgWIAEoARISCgpiaWRfdm9sdW1lGBcgASgFEhEKCWFza19w",
-            "cmljZRgYIAEoARISCgphc2tfdm9sdW1lGBkgASgFQkcKFWlvLmV2ZWx5bm4u",
-            "YmFzZS5wcm90b0IZRGVwdGhNYXJrZXREYXRhRmllbGRQcm90b6oCEkV2ZWx5",
-            "bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "cmljZRgYIAEoARISCgphc2tfdm9sdW1lGBkgASgFQkgKFWlvLmV2ZWx5bm4u",
+            "YmFzZS5wcm90b0IZRGVwdGhNYXJrZXREYXRhRmllbGRQcm90b6oCE0V2ZWx5",
+            "bm4uQmFzZS5SZXR1cm5iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.DepthMarketDataField), global::Evelynn.Base.Proto.DepthMarketDataField.Parser, new[]{ "TradingDay", "InstrumentId", "ExchangeId", "LastPrice", "PreSettlementPrice", "PreClosePrice", "PreOpenInterest", "OpenPrice", "HighestPrice", "LowestPrice", "Volume", "TurnOver", "OpenInterest", "ClosePrice", "SettlementPrice", "UpperLimitPrice", "LowerLimitPrice", "UpdateTime", "UpdateMillisec", "AveragePrice", "ActionDay", "BidPrice", "BidVolume", "AskPrice", "AskVolume" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Return.DepthMarketDataField), global::Evelynn.Base.Return.DepthMarketDataField.Parser, new[]{ "TradingDay", "InstrumentId", "ExchangeId", "LastPrice", "PreSettlementPrice", "PreClosePrice", "PreOpenInterest", "OpenPrice", "HighestPrice", "LowestPrice", "Volume", "TurnOver", "OpenInterest", "ClosePrice", "SettlementPrice", "UpperLimitPrice", "LowerLimitPrice", "UpdateTime", "UpdateMillisec", "AveragePrice", "ActionDay", "BidPrice", "BidVolume", "AskPrice", "AskVolume" }, null, null, null, null)
           }));
     }
     #endregion
@@ -62,7 +62,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.RtnDepthMarketDataReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Return.RtnDepthMarketDataReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

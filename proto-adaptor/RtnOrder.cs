@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Return {
 
   /// <summary>Holder for reflection information generated from Rtn.Order.proto</summary>
   public static partial class RtnOrderReflection {
@@ -43,12 +43,12 @@ namespace Evelynn.Base.Proto {
             "ZWxfdGltZRgfIAEoCRIQCghmcm9udF9pZBggIAEoBRISCgpzZXNzaW9uX2lk",
             "GCEgASgFEhIKCnN0YXR1c19tc2cYIiABKAkSHwoXemNlX3RvdGFsX3RyYWRl",
             "ZF92b2x1bWUYIyABKAUSEgoKYWNjb3VudF9pZBgkIAEoCRITCgtjdXJyZW5j",
-            "eV9pZBglIAEoCUI9ChVpby5ldmVseW5uLmJhc2UucHJvdG9CD09yZGVyRmll",
-            "bGRQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "eV9pZBglIAEoCUI+ChVpby5ldmVseW5uLmJhc2UucHJvdG9CD09yZGVyRmll",
+            "bGRQcm90b6oCE0V2ZWx5bm4uQmFzZS5SZXR1cm5iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.OrderField), global::Evelynn.Base.Proto.OrderField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "OrderRef", "UserId", "Direction", "CombOffsetFlag", "CombHedgeFlag", "LimitPrice", "VolumeTotalOriginal", "TimeCondition", "VolumeCondition", "MinVolume", "ContigentCondition", "StopPrice", "IsAutoSuspend", "RequestId", "OrderLocalId", "ExchangeId", "OrderSubmitStatus", "TradingDay", "OrderSysId", "OrderStatus", "VolumeTraded", "VolumeTotal", "InsertDate", "InsertTime", "ActiveTime", "SuspendTime", "UpdateTime", "CancelTime", "FrontId", "SessionId", "StatusMsg", "ZceTotalTradedVolume", "AccountId", "CurrencyId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Return.OrderField), global::Evelynn.Base.Return.OrderField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "OrderRef", "UserId", "Direction", "CombOffsetFlag", "CombHedgeFlag", "LimitPrice", "VolumeTotalOriginal", "TimeCondition", "VolumeCondition", "MinVolume", "ContigentCondition", "StopPrice", "IsAutoSuspend", "RequestId", "OrderLocalId", "ExchangeId", "OrderSubmitStatus", "TradingDay", "OrderSysId", "OrderStatus", "VolumeTraded", "VolumeTotal", "InsertDate", "InsertTime", "ActiveTime", "SuspendTime", "UpdateTime", "CancelTime", "FrontId", "SessionId", "StatusMsg", "ZceTotalTradedVolume", "AccountId", "CurrencyId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -67,7 +67,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.RtnOrderReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Return.RtnOrderReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.OrderInsert.proto</summary>
   public static partial class MsgReqOrderInsertReflection {
@@ -27,12 +27,12 @@ namespace Evelynn.Base.Proto {
             "ChlNc2cuUmVxLk9yZGVySW5zZXJ0LnByb3RvEgdtc2cucmVxGhRSZXEuSW5w",
             "dXRPcmRlci5wcm90byJSChFSZXFPcmRlckluc2VydE1zZxIpCgtpbnB1dF9v",
             "cmRlchgBIAEoCzIULnJlcS5JbnB1dE9yZGVyRmllbGQSEgoKcmVxdWVzdF9p",
-            "ZBgCIAEoBUJEChVpby5ldmVseW5uLmJhc2UucHJvdG9CFlJlcU9yZGVySW5z",
-            "ZXJ0TXNnUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnByb3RvMw=="));
+            "ZBgCIAEoBUJGChVpby5ldmVseW5uLmJhc2UucHJvdG9CFlJlcU9yZGVySW5z",
+            "ZXJ0TXNnUHJvdG+qAhRFdmVseW5uLkJhc2UuUmVxdWVzdGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqInputOrderReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqInputOrderReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqOrderInsertMsg), global::Evelynn.Base.Proto.ReqOrderInsertMsg.Parser, new[]{ "InputOrder", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqOrderInsertMsg), global::Evelynn.Base.Request.ReqOrderInsertMsg.Parser, new[]{ "InputOrder", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqOrderInsertReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqOrderInsertReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -80,9 +80,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "input_order" field.</summary>
     public const int InputOrderFieldNumber = 1;
-    private global::Evelynn.Base.Proto.InputOrderField inputOrder_;
+    private global::Evelynn.Base.Request.InputOrderField inputOrder_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.InputOrderField InputOrder {
+    public global::Evelynn.Base.Request.InputOrderField InputOrder {
       get { return inputOrder_; }
       set {
         inputOrder_ = value;
@@ -192,7 +192,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.inputOrder_ != null) {
         if (inputOrder_ == null) {
-          InputOrder = new global::Evelynn.Base.Proto.InputOrderField();
+          InputOrder = new global::Evelynn.Base.Request.InputOrderField();
         }
         InputOrder.MergeFrom(other.InputOrder);
       }
@@ -215,7 +215,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (inputOrder_ == null) {
-              InputOrder = new global::Evelynn.Base.Proto.InputOrderField();
+              InputOrder = new global::Evelynn.Base.Request.InputOrderField();
             }
             input.ReadMessage(InputOrder);
             break;
@@ -240,7 +240,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (inputOrder_ == null) {
-              InputOrder = new global::Evelynn.Base.Proto.InputOrderField();
+              InputOrder = new global::Evelynn.Base.Request.InputOrderField();
             }
             input.ReadMessage(InputOrder);
             break;

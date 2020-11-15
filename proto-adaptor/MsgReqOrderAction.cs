@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.OrderAction.proto</summary>
   public static partial class MsgReqOrderActionReflection {
@@ -27,13 +27,13 @@ namespace Evelynn.Base.Proto {
             "ChlNc2cuUmVxLk9yZGVyQWN0aW9uLnByb3RvEgdtc2cucmVxGhpSZXEuSW5w",
             "dXRPcmRlckFjdGlvbi5wcm90byJZChFSZXFPcmRlckFjdGlvbk1zZxIwCgxv",
             "cmRlcl9hY3Rpb24YASABKAsyGi5yZXEuSW5wdXRPcmRlckFjdGlvbkZpZWxk",
-            "EhIKCnJlcXVlc3RfaWQYAiABKAVCRAoVaW8uZXZlbHlubi5iYXNlLnByb3Rv",
-            "QhZSZXFPcmRlckFjdGlvbk1zZ1Byb3RvqgISRXZlbHlubi5CYXNlLlByb3Rv",
-            "YgZwcm90bzM="));
+            "EhIKCnJlcXVlc3RfaWQYAiABKAVCRgoVaW8uZXZlbHlubi5iYXNlLnByb3Rv",
+            "QhZSZXFPcmRlckFjdGlvbk1zZ1Byb3RvqgIURXZlbHlubi5CYXNlLlJlcXVl",
+            "c3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqInputOrderActionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqInputOrderActionReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqOrderActionMsg), global::Evelynn.Base.Proto.ReqOrderActionMsg.Parser, new[]{ "OrderAction", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqOrderActionMsg), global::Evelynn.Base.Request.ReqOrderActionMsg.Parser, new[]{ "OrderAction", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -52,7 +52,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqOrderActionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqOrderActionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -81,9 +81,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "order_action" field.</summary>
     public const int OrderActionFieldNumber = 1;
-    private global::Evelynn.Base.Proto.InputOrderActionField orderAction_;
+    private global::Evelynn.Base.Request.InputOrderActionField orderAction_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.InputOrderActionField OrderAction {
+    public global::Evelynn.Base.Request.InputOrderActionField OrderAction {
       get { return orderAction_; }
       set {
         orderAction_ = value;
@@ -193,7 +193,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.orderAction_ != null) {
         if (orderAction_ == null) {
-          OrderAction = new global::Evelynn.Base.Proto.InputOrderActionField();
+          OrderAction = new global::Evelynn.Base.Request.InputOrderActionField();
         }
         OrderAction.MergeFrom(other.OrderAction);
       }
@@ -216,7 +216,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (orderAction_ == null) {
-              OrderAction = new global::Evelynn.Base.Proto.InputOrderActionField();
+              OrderAction = new global::Evelynn.Base.Request.InputOrderActionField();
             }
             input.ReadMessage(OrderAction);
             break;
@@ -241,7 +241,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (orderAction_ == null) {
-              OrderAction = new global::Evelynn.Base.Proto.InputOrderActionField();
+              OrderAction = new global::Evelynn.Base.Request.InputOrderActionField();
             }
             input.ReadMessage(OrderAction);
             break;

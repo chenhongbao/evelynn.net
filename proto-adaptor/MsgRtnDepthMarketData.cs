@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Return {
 
   /// <summary>Holder for reflection information generated from Msg.Rtn.DepthMarketData.proto</summary>
   public static partial class MsgRtnDepthMarketDataReflection {
@@ -27,12 +27,12 @@ namespace Evelynn.Base.Proto {
             "Ch1Nc2cuUnRuLkRlcHRoTWFya2V0RGF0YS5wcm90bxIHbXNnLnJ0bhoZUnRu",
             "LkRlcHRoTWFya2V0RGF0YS5wcm90byJBChVSdG5EZXB0aE1hcmtldERhdGFN",
             "c2cSKAoFRGVwdGgYASABKAsyGS5ydG4uRGVwdGhNYXJrZXREYXRhRmllbGRC",
-            "SAoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhpSdG5EZXB0aE1hcmtldERhdGFN",
-            "c2dQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "SQoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhpSdG5EZXB0aE1hcmtldERhdGFN",
+            "c2dQcm90b6oCE0V2ZWx5bm4uQmFzZS5SZXR1cm5iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RtnDepthMarketDataReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Return.RtnDepthMarketDataReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RtnDepthMarketDataMsg), global::Evelynn.Base.Proto.RtnDepthMarketDataMsg.Parser, new[]{ "Depth" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Return.RtnDepthMarketDataMsg), global::Evelynn.Base.Return.RtnDepthMarketDataMsg.Parser, new[]{ "Depth" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRtnDepthMarketDataReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Return.MsgRtnDepthMarketDataReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -79,9 +79,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "Depth" field.</summary>
     public const int DepthFieldNumber = 1;
-    private global::Evelynn.Base.Proto.DepthMarketDataField depth_;
+    private global::Evelynn.Base.Return.DepthMarketDataField depth_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.DepthMarketDataField Depth {
+    public global::Evelynn.Base.Return.DepthMarketDataField Depth {
       get { return depth_; }
       set {
         depth_ = value;
@@ -167,7 +167,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.depth_ != null) {
         if (depth_ == null) {
-          Depth = new global::Evelynn.Base.Proto.DepthMarketDataField();
+          Depth = new global::Evelynn.Base.Return.DepthMarketDataField();
         }
         Depth.MergeFrom(other.Depth);
       }
@@ -187,7 +187,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (depth_ == null) {
-              Depth = new global::Evelynn.Base.Proto.DepthMarketDataField();
+              Depth = new global::Evelynn.Base.Return.DepthMarketDataField();
             }
             input.ReadMessage(Depth);
             break;
@@ -208,7 +208,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (depth_ == null) {
-              Depth = new global::Evelynn.Base.Proto.DepthMarketDataField();
+              Depth = new global::Evelynn.Base.Return.DepthMarketDataField();
             }
             input.ReadMessage(Depth);
             break;

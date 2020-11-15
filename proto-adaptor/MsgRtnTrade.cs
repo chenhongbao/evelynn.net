@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Return {
 
   /// <summary>Holder for reflection information generated from Msg.Rtn.Trade.proto</summary>
   public static partial class MsgRtnTradeReflection {
@@ -26,12 +26,12 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChNNc2cuUnRuLlRyYWRlLnByb3RvEgdtc2cucnRuGg9SdG4uVHJhZGUucHJv",
             "dG8iLQoLUnRuVHJhZGVNc2cSHgoFdHJhZGUYASABKAsyDy5ydG4uVHJhZGVG",
-            "aWVsZEI+ChVpby5ldmVseW5uLmJhc2UucHJvdG9CEFJ0blRyYWRlTXNnUHJv",
-            "dG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnByb3RvMw=="));
+            "aWVsZEI/ChVpby5ldmVseW5uLmJhc2UucHJvdG9CEFJ0blRyYWRlTXNnUHJv",
+            "dG+qAhNFdmVseW5uLkJhc2UuUmV0dXJuYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RtnTradeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Return.RtnTradeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RtnTradeMsg), global::Evelynn.Base.Proto.RtnTradeMsg.Parser, new[]{ "Trade" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Return.RtnTradeMsg), global::Evelynn.Base.Return.RtnTradeMsg.Parser, new[]{ "Trade" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRtnTradeReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Return.MsgRtnTradeReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -78,9 +78,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "trade" field.</summary>
     public const int TradeFieldNumber = 1;
-    private global::Evelynn.Base.Proto.TradeField trade_;
+    private global::Evelynn.Base.Return.TradeField trade_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.TradeField Trade {
+    public global::Evelynn.Base.Return.TradeField Trade {
       get { return trade_; }
       set {
         trade_ = value;
@@ -166,7 +166,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.trade_ != null) {
         if (trade_ == null) {
-          Trade = new global::Evelynn.Base.Proto.TradeField();
+          Trade = new global::Evelynn.Base.Return.TradeField();
         }
         Trade.MergeFrom(other.Trade);
       }
@@ -186,7 +186,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (trade_ == null) {
-              Trade = new global::Evelynn.Base.Proto.TradeField();
+              Trade = new global::Evelynn.Base.Return.TradeField();
             }
             input.ReadMessage(Trade);
             break;
@@ -207,7 +207,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (trade_ == null) {
-              Trade = new global::Evelynn.Base.Proto.TradeField();
+              Trade = new global::Evelynn.Base.Return.TradeField();
             }
             input.ReadMessage(Trade);
             break;

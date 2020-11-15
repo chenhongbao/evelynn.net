@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Query {
 
   /// <summary>Holder for reflection information generated from Qry.CommissionRate.proto</summary>
   public static partial class QryCommissionRateReflection {
@@ -28,11 +28,11 @@ namespace Evelynn.Base.Proto {
             "aW9uUmF0ZUZpZWxkEhEKCWJyb2tlcl9pZBgBIAEoCRITCgtpbnZlc3Rvcl9p",
             "ZBgCIAEoCRIVCg1pbnN0cnVtZW50X2lkGAMgASgJEhMKC2V4Y2hhbmdlX2lk",
             "GAQgASgJQkkKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IbUXJ5Q29tbWlzc2lv",
-            "blJhdGVGaWVsZFByb3RvqgISRXZlbHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "blJhdGVGaWVsZFByb3RvqgISRXZlbHlubi5CYXNlLlF1ZXJ5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.QryCommissionRateField), global::Evelynn.Base.Proto.QryCommissionRateField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "ExchangeId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Query.QryCommissionRateField), global::Evelynn.Base.Query.QryCommissionRateField.Parser, new[]{ "BrokerId", "InvestorId", "InstrumentId", "ExchangeId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.QryCommissionRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Query.QryCommissionRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

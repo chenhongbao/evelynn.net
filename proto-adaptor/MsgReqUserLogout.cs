@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.UserLogout.proto</summary>
   public static partial class MsgReqUserLogoutReflection {
@@ -27,12 +27,12 @@ namespace Evelynn.Base.Proto {
             "ChhNc2cuUmVxLlVzZXJMb2dvdXQucHJvdG8SB21zZy5yZXEaFFJlcS5Vc2Vy",
             "TG9nb3V0LnByb3RvIkwKEFJlcVVzZXJMb2dvdXRNc2cSJAoGbG9nb3V0GAEg",
             "ASgLMhQucmVxLlVzZXJMb2dvdXRGaWVsZBISCgpyZXF1ZXN0X2lkGAIgASgF",
-            "QkMKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IVUmVxVXNlckxvZ291dE1zZ1By",
-            "b3RvqgISRXZlbHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "QkUKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IVUmVxVXNlckxvZ291dE1zZ1By",
+            "b3RvqgIURXZlbHlubi5CYXNlLlJlcXVlc3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqUserLogoutReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqUserLogoutReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqUserLogoutMsg), global::Evelynn.Base.Proto.ReqUserLogoutMsg.Parser, new[]{ "Logout", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqUserLogoutMsg), global::Evelynn.Base.Request.ReqUserLogoutMsg.Parser, new[]{ "Logout", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqUserLogoutReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqUserLogoutReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -80,9 +80,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "logout" field.</summary>
     public const int LogoutFieldNumber = 1;
-    private global::Evelynn.Base.Proto.UserLogoutField logout_;
+    private global::Evelynn.Base.Request.UserLogoutField logout_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.UserLogoutField Logout {
+    public global::Evelynn.Base.Request.UserLogoutField Logout {
       get { return logout_; }
       set {
         logout_ = value;
@@ -192,7 +192,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.logout_ != null) {
         if (logout_ == null) {
-          Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+          Logout = new global::Evelynn.Base.Request.UserLogoutField();
         }
         Logout.MergeFrom(other.Logout);
       }
@@ -215,7 +215,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (logout_ == null) {
-              Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+              Logout = new global::Evelynn.Base.Request.UserLogoutField();
             }
             input.ReadMessage(Logout);
             break;
@@ -240,7 +240,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (logout_ == null) {
-              Logout = new global::Evelynn.Base.Proto.UserLogoutField();
+              Logout = new global::Evelynn.Base.Request.UserLogoutField();
             }
             input.ReadMessage(Logout);
             break;

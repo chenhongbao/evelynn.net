@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Msg.Rsp.Instrument.proto</summary>
   public static partial class MsgRspInstrumentReflection {
@@ -28,13 +28,13 @@ namespace Evelynn.Base.Proto {
             "cnVtZW50LnByb3RvGg9Sc3AuRXJyb3IucHJvdG8igQEKEFJzcEluc3RydW1l",
             "bnRNc2cSKAoKaW5zdHJ1bWVudBgBIAEoCzIULnJzcC5JbnN0cnVtZW50Rmll",
             "bGQSHgoFZXJyb3IYAiABKAsyDy5yc3AuRXJyb3JGaWVsZBISCgpyZXF1ZXN0",
-            "X2lkGAMgASgFEg8KB2lzX2xhc3QYBCABKAhCQwoVaW8uZXZlbHlubi5iYXNl",
-            "LnByb3RvQhVSc3BJbnN0cnVtZW50TXNnUHJvdG+qAhJFdmVseW5uLkJhc2Uu",
-            "UHJvdG9iBnByb3RvMw=="));
+            "X2lkGAMgASgFEg8KB2lzX2xhc3QYBCABKAhCRgoVaW8uZXZlbHlubi5iYXNl",
+            "LnByb3RvQhVSc3BJbnN0cnVtZW50TXNnUHJvdG+qAhVFdmVseW5uLkJhc2Uu",
+            "UmVzcG9uc2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.RspInstrumentReflection.Descriptor, global::Evelynn.Base.Proto.RspErrorReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Response.RspInstrumentReflection.Descriptor, global::Evelynn.Base.Response.RspErrorReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.RspInstrumentMsg), global::Evelynn.Base.Proto.RspInstrumentMsg.Parser, new[]{ "Instrument", "Error", "RequestId", "IsLast" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.RspInstrumentMsg), global::Evelynn.Base.Response.RspInstrumentMsg.Parser, new[]{ "Instrument", "Error", "RequestId", "IsLast" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +53,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgRspInstrumentReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.MsgRspInstrumentReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -84,9 +84,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "instrument" field.</summary>
     public const int InstrumentFieldNumber = 1;
-    private global::Evelynn.Base.Proto.InstrumentField instrument_;
+    private global::Evelynn.Base.Response.InstrumentField instrument_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.InstrumentField Instrument {
+    public global::Evelynn.Base.Response.InstrumentField Instrument {
       get { return instrument_; }
       set {
         instrument_ = value;
@@ -95,9 +95,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "error" field.</summary>
     public const int ErrorFieldNumber = 2;
-    private global::Evelynn.Base.Proto.ErrorField error_;
+    private global::Evelynn.Base.Response.ErrorField error_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.ErrorField Error {
+    public global::Evelynn.Base.Response.ErrorField Error {
       get { return error_; }
       set {
         error_ = value;
@@ -244,13 +244,13 @@ namespace Evelynn.Base.Proto {
       }
       if (other.instrument_ != null) {
         if (instrument_ == null) {
-          Instrument = new global::Evelynn.Base.Proto.InstrumentField();
+          Instrument = new global::Evelynn.Base.Response.InstrumentField();
         }
         Instrument.MergeFrom(other.Instrument);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          Error = new global::Evelynn.Base.Proto.ErrorField();
+          Error = new global::Evelynn.Base.Response.ErrorField();
         }
         Error.MergeFrom(other.Error);
       }
@@ -276,14 +276,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (instrument_ == null) {
-              Instrument = new global::Evelynn.Base.Proto.InstrumentField();
+              Instrument = new global::Evelynn.Base.Response.InstrumentField();
             }
             input.ReadMessage(Instrument);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;
@@ -312,14 +312,14 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (instrument_ == null) {
-              Instrument = new global::Evelynn.Base.Proto.InstrumentField();
+              Instrument = new global::Evelynn.Base.Response.InstrumentField();
             }
             input.ReadMessage(Instrument);
             break;
           }
           case 18: {
             if (error_ == null) {
-              Error = new global::Evelynn.Base.Proto.ErrorField();
+              Error = new global::Evelynn.Base.Response.ErrorField();
             }
             input.ReadMessage(Error);
             break;

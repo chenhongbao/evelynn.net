@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Msg.Req.UserLogin.proto</summary>
   public static partial class MsgReqUserLoginReflection {
@@ -26,13 +26,13 @@ namespace Evelynn.Base.Proto {
           string.Concat(
             "ChdNc2cuUmVxLlVzZXJMb2dpbi5wcm90bxIHbXNnLnJlcRoTUmVxLlVzZXJM",
             "b2dpbi5wcm90byJJCg9SZXFVc2VyTG9naW5Nc2cSIgoFbG9naW4YASABKAsy",
-            "Ey5yZXEuVXNlckxvZ2luRmllbGQSEgoKcmVxdWVzdF9pZBgCIAEoBUJCChVp",
-            "by5ldmVseW5uLmJhc2UucHJvdG9CFFJlcVVzZXJMb2dpbk1zZ1Byb3RvqgIS",
-            "RXZlbHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "Ey5yZXEuVXNlckxvZ2luRmllbGQSEgoKcmVxdWVzdF9pZBgCIAEoBUJEChVp",
+            "by5ldmVseW5uLmJhc2UucHJvdG9CFFJlcVVzZXJMb2dpbk1zZ1Byb3RvqgIU",
+            "RXZlbHlubi5CYXNlLlJlcXVlc3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.ReqUserLoginReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Request.ReqUserLoginReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.ReqUserLoginMsg), global::Evelynn.Base.Proto.ReqUserLoginMsg.Parser, new[]{ "Login", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.ReqUserLoginMsg), global::Evelynn.Base.Request.ReqUserLoginMsg.Parser, new[]{ "Login", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgReqUserLoginReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.MsgReqUserLoginReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -80,9 +80,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "login" field.</summary>
     public const int LoginFieldNumber = 1;
-    private global::Evelynn.Base.Proto.UserLoginField login_;
+    private global::Evelynn.Base.Request.UserLoginField login_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.UserLoginField Login {
+    public global::Evelynn.Base.Request.UserLoginField Login {
       get { return login_; }
       set {
         login_ = value;
@@ -192,7 +192,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.login_ != null) {
         if (login_ == null) {
-          Login = new global::Evelynn.Base.Proto.UserLoginField();
+          Login = new global::Evelynn.Base.Request.UserLoginField();
         }
         Login.MergeFrom(other.Login);
       }
@@ -215,7 +215,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (login_ == null) {
-              Login = new global::Evelynn.Base.Proto.UserLoginField();
+              Login = new global::Evelynn.Base.Request.UserLoginField();
             }
             input.ReadMessage(Login);
             break;
@@ -240,7 +240,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (login_ == null) {
-              Login = new global::Evelynn.Base.Proto.UserLoginField();
+              Login = new global::Evelynn.Base.Request.UserLoginField();
             }
             input.ReadMessage(Login);
             break;

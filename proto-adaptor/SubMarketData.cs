@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Subscription {
 
   /// <summary>Holder for reflection information generated from Sub.MarketData.proto</summary>
   public static partial class SubMarketDataReflection {
@@ -25,13 +25,13 @@ namespace Evelynn.Base.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChRTdWIuTWFya2V0RGF0YS5wcm90bxIDc3ViIjoKElN1Yk1hcmtldERhdGFG",
-            "aWVsZBIVCg1pbnN0cnVtZW50X2lkGAEgAygJEg0KBWNvdW50GAIgASgFQkUK",
+            "aWVsZBIVCg1pbnN0cnVtZW50X2lkGAEgAygJEg0KBWNvdW50GAIgASgFQkwK",
             "FWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IXU3ViTWFya2V0RGF0YUZpZWxkUHJv",
-            "dG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnByb3RvMw=="));
+            "dG+qAhlFdmVseW5uLkJhc2UuU3Vic2NyaXB0aW9uYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.SubMarketDataField), global::Evelynn.Base.Proto.SubMarketDataField.Parser, new[]{ "InstrumentId", "Count" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Subscription.SubMarketDataField), global::Evelynn.Base.Subscription.SubMarketDataField.Parser, new[]{ "InstrumentId", "Count" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.SubMarketDataReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Subscription.SubMarketDataReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

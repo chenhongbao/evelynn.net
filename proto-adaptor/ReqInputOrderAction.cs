@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.InputOrderAction.proto</summary>
   public static partial class ReqInputOrderActionReflection {
@@ -29,13 +29,13 @@ namespace Evelynn.Base.Proto {
             "X2lkGAIgASgJEg8KB3VzZXJfaWQYAyABKAkSFQoNaW5zdHJ1bWVudF9pZBgE",
             "IAEoCRITCgtleGNoYW5nZV9pZBgFIAEoCRIUCgxvcmRlcl9zeXNfaWQYBiAB",
             "KAkSEQoJb3JkZXJfcmVmGAcgASgJEhAKCGZyb250X2lkGAggASgFEhIKCnNl",
-            "c3Npb25faWQYCSABKAUSEwoLYWN0aW9uX2ZsYWcYCiABKAVCSAoVaW8uZXZl",
+            "c3Npb25faWQYCSABKAUSEwoLYWN0aW9uX2ZsYWcYCiABKAVCSgoVaW8uZXZl",
             "bHlubi5iYXNlLnByb3RvQhpJbnB1dE9yZGVyQWN0aW9uRmllbGRQcm90b6oC",
-            "EkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "FEV2ZWx5bm4uQmFzZS5SZXF1ZXN0YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.InputOrderActionField), global::Evelynn.Base.Proto.InputOrderActionField.Parser, new[]{ "BrokerId", "InvestorId", "UserId", "InstrumentId", "ExchangeId", "OrderSysId", "OrderRef", "FrontId", "SessionId", "ActionFlag" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.InputOrderActionField), global::Evelynn.Base.Request.InputOrderActionField.Parser, new[]{ "BrokerId", "InvestorId", "UserId", "InstrumentId", "ExchangeId", "OrderSysId", "OrderRef", "FrontId", "SessionId", "ActionFlag" }, null, null, null, null)
           }));
     }
     #endregion
@@ -54,7 +54,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqInputOrderActionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqInputOrderActionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

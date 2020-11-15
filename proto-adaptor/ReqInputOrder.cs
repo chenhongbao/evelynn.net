@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.InputOrder.proto</summary>
   public static partial class ReqInputOrderReflection {
@@ -34,13 +34,13 @@ namespace Evelynn.Base.Proto {
             "DCABKAUSGAoQdm9sdW1lX2NvbmRpdGlvbhgNIAEoBRISCgptaW5fdm9sdW1l",
             "GA4gASgFEhsKE2NvbnRpZ2VudF9jb25kaXRpb24YDyABKAUSEgoKc3RvcF9w",
             "cmljZRgQIAEoARIaChJmb3JjZV9jbG9zZV9yZWFzb24YESABKAUSFwoPaXNf",
-            "YXV0b19zdXNwZW5kGBIgASgFQkIKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IU",
-            "SW5wdXRPcmRlckZpZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9iBnBy",
-            "b3RvMw=="));
+            "YXV0b19zdXNwZW5kGBIgASgFQkQKFWlvLmV2ZWx5bm4uYmFzZS5wcm90b0IU",
+            "SW5wdXRPcmRlckZpZWxkUHJvdG+qAhRFdmVseW5uLkJhc2UuUmVxdWVzdGIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.InputOrderField), global::Evelynn.Base.Proto.InputOrderField.Parser, new[]{ "BrokerId", "InvestorId", "UserId", "InstrumentId", "ExchangeId", "OrderPriceType", "Direction", "CombOffsetFlag", "CombHedgeFlag", "LimitPrice", "VolumeTotalOriginal", "TimeCondition", "VolumeCondition", "MinVolume", "ContigentCondition", "StopPrice", "ForceCloseReason", "IsAutoSuspend" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.InputOrderField), global::Evelynn.Base.Request.InputOrderField.Parser, new[]{ "BrokerId", "InvestorId", "UserId", "InstrumentId", "ExchangeId", "OrderPriceType", "Direction", "CombOffsetFlag", "CombHedgeFlag", "LimitPrice", "VolumeTotalOriginal", "TimeCondition", "VolumeCondition", "MinVolume", "ContigentCondition", "StopPrice", "ForceCloseReason", "IsAutoSuspend" }, null, null, null, null)
           }));
     }
     #endregion
@@ -59,7 +59,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqInputOrderReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqInputOrderReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

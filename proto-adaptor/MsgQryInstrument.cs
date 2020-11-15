@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Query {
 
   /// <summary>Holder for reflection information generated from Msg.Qry.Instrument.proto</summary>
   public static partial class MsgQryInstrumentReflection {
@@ -28,11 +28,11 @@ namespace Evelynn.Base.Proto {
             "cnVtZW50LnByb3RvIlMKEFFyeUluc3RydW1lbnRNc2cSKwoKaW5zdHJ1bWVu",
             "dBgBIAEoCzIXLnFyeS5RcnlJbnN0cnVtZW50RmllbGQSEgoKcmVxdWVzdF9p",
             "ZBgCIAEoBUJDChVpby5ldmVseW5uLmJhc2UucHJvdG9CFVFyeUluc3RydW1l",
-            "bnRNc2dQcm90b6oCEkV2ZWx5bm4uQmFzZS5Qcm90b2IGcHJvdG8z"));
+            "bnRNc2dQcm90b6oCEkV2ZWx5bm4uQmFzZS5RdWVyeWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Evelynn.Base.Proto.QryInstrumentReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Evelynn.Base.Query.QryInstrumentReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.QryInstrumentMsg), global::Evelynn.Base.Proto.QryInstrumentMsg.Parser, new[]{ "Instrument", "RequestId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Query.QryInstrumentMsg), global::Evelynn.Base.Query.QryInstrumentMsg.Parser, new[]{ "Instrument", "RequestId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -51,7 +51,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.MsgQryInstrumentReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Query.MsgQryInstrumentReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -80,9 +80,9 @@ namespace Evelynn.Base.Proto {
 
     /// <summary>Field number for the "instrument" field.</summary>
     public const int InstrumentFieldNumber = 1;
-    private global::Evelynn.Base.Proto.QryInstrumentField instrument_;
+    private global::Evelynn.Base.Query.QryInstrumentField instrument_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Evelynn.Base.Proto.QryInstrumentField Instrument {
+    public global::Evelynn.Base.Query.QryInstrumentField Instrument {
       get { return instrument_; }
       set {
         instrument_ = value;
@@ -192,7 +192,7 @@ namespace Evelynn.Base.Proto {
       }
       if (other.instrument_ != null) {
         if (instrument_ == null) {
-          Instrument = new global::Evelynn.Base.Proto.QryInstrumentField();
+          Instrument = new global::Evelynn.Base.Query.QryInstrumentField();
         }
         Instrument.MergeFrom(other.Instrument);
       }
@@ -215,7 +215,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (instrument_ == null) {
-              Instrument = new global::Evelynn.Base.Proto.QryInstrumentField();
+              Instrument = new global::Evelynn.Base.Query.QryInstrumentField();
             }
             input.ReadMessage(Instrument);
             break;
@@ -240,7 +240,7 @@ namespace Evelynn.Base.Proto {
             break;
           case 10: {
             if (instrument_ == null) {
-              Instrument = new global::Evelynn.Base.Proto.QryInstrumentField();
+              Instrument = new global::Evelynn.Base.Query.QryInstrumentField();
             }
             input.ReadMessage(Instrument);
             break;

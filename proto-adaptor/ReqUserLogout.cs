@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Request {
 
   /// <summary>Holder for reflection information generated from Req.UserLogout.proto</summary>
   public static partial class ReqUserLogoutReflection {
@@ -25,13 +25,13 @@ namespace Evelynn.Base.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChRSZXEuVXNlckxvZ291dC5wcm90bxIDcmVxIjUKD1VzZXJMb2dvdXRGaWVs",
-            "ZBIRCglicm9rZXJfaWQYASABKAkSDwoHdXNlcl9pZBgCIAEoCUJCChVpby5l",
-            "dmVseW5uLmJhc2UucHJvdG9CFFVzZXJMb2dvdXRGaWVsZFByb3RvqgISRXZl",
-            "bHlubi5CYXNlLlByb3RvYgZwcm90bzM="));
+            "ZBIRCglicm9rZXJfaWQYASABKAkSDwoHdXNlcl9pZBgCIAEoCUJEChVpby5l",
+            "dmVseW5uLmJhc2UucHJvdG9CFFVzZXJMb2dvdXRGaWVsZFByb3RvqgIURXZl",
+            "bHlubi5CYXNlLlJlcXVlc3RiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.UserLogoutField), global::Evelynn.Base.Proto.UserLogoutField.Parser, new[]{ "BrokerId", "UserId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Request.UserLogoutField), global::Evelynn.Base.Request.UserLogoutField.Parser, new[]{ "BrokerId", "UserId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -50,7 +50,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.ReqUserLogoutReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Request.ReqUserLogoutReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Evelynn.Base.Proto {
+namespace Evelynn.Base.Response {
 
   /// <summary>Holder for reflection information generated from Rsp.CommissionRate.proto</summary>
   public static partial class RspCommissionRateReflection {
@@ -31,13 +31,13 @@ namespace Evelynn.Base.Proto {
             "FGNsb3NlX3JhdGlvX2J5X21vbmV5GAYgASgBEh0KFWNsb3NlX3JhdGlvX2J5",
             "X3ZvbHVtZRgHIAEoARIiChpjbG9zZV90b2RheV9yYXRpb19ieV9tb25leRgI",
             "IAEoARIjChtjbG9zZV90b2RheV9yYXRpb19ieV92b2x1bWUYCSABKAESEwoL",
-            "ZXhjaGFuZ2VfaWQYCiABKAlCRgoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhhD",
-            "b21taXNzaW9uUmF0ZUZpZWxkUHJvdG+qAhJFdmVseW5uLkJhc2UuUHJvdG9i",
-            "BnByb3RvMw=="));
+            "ZXhjaGFuZ2VfaWQYCiABKAlCSQoVaW8uZXZlbHlubi5iYXNlLnByb3RvQhhD",
+            "b21taXNzaW9uUmF0ZUZpZWxkUHJvdG+qAhVFdmVseW5uLkJhc2UuUmVzcG9u",
+            "c2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Proto.CommissionRateField), global::Evelynn.Base.Proto.CommissionRateField.Parser, new[]{ "InstrumentId", "BrokerId", "InvestorId", "OpenRatioByMoney", "OpenRatioByVolume", "CloseRatioByMoney", "CloseRatioByVolume", "CloseTodayRatioByMoney", "CloseTodayRatioByVolume", "ExchangeId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Evelynn.Base.Response.CommissionRateField), global::Evelynn.Base.Response.CommissionRateField.Parser, new[]{ "InstrumentId", "BrokerId", "InvestorId", "OpenRatioByMoney", "OpenRatioByVolume", "CloseRatioByMoney", "CloseRatioByVolume", "CloseTodayRatioByMoney", "CloseTodayRatioByVolume", "ExchangeId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -56,7 +56,7 @@ namespace Evelynn.Base.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Evelynn.Base.Proto.RspCommissionRateReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Evelynn.Base.Response.RspCommissionRateReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
